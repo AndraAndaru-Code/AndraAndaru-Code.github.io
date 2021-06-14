@@ -1,0 +1,177 @@
+/* BGCol */
+
+.bgcol-prim {
+  background-color: #684fff;
+}
+
+.bgcol-sec {
+  background-color: #5033ff;
+}
+
+.bgcol-gr900 {
+  background-color: #0a1931;
+}
+
+.bgcol-gr500 {
+  background-color: #737d8c;
+}
+
+.bgcol-gr100 {
+  background-color: #dfe3eb;
+}
+
+.bgcol-white {
+  background-color: #fff;
+}
+
+/* TextColor */
+
+.tcol-prim {
+  color: #684fff;
+}
+
+.tcol-sec {
+  color: #5033ff;
+}
+
+.tcol-gr900 {
+  color: #0a1931;
+}
+
+.tcol-gr500 {
+  color: #737d8c;
+}
+
+.tcol-gr100 {
+  color: #dfe3eb;
+}
+
+.tcol-white {
+  color: #fff;
+}
+
+/* Typography */
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 2%;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.body-xl {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.body-l {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.body-m {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.body-s {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+/* Button */
+
+.btn-primary {
+  background-color: #684fff;
+  color: #fff;
+  padding: 0 32px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #5533ff;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border: 1px solid #dfe3eb;
+  padding: 0 32px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border: 1px solid #0a1931;
+}
